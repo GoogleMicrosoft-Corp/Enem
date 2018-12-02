@@ -1,12 +1,32 @@
-<!-- Formulário de Login -->
-  <form action="validacao.php" method="post">
-  <fieldset>
-  <legend>Dados de Login</legend>
-      <label for="txUsuario">Usuário</label>
-      <input type="text" name="usuario" id="txUsuario" maxlength="25" />
-      <label for="txSenha">Senha</label>
-      <input type="password" name="senha" id="txSenha" />
-    
-      <input type="submit" value="Entrar" />
-  </fieldset>
-  </form>
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+      <link href="CSS/CSS_login.css" rel="stylesheet">
+
+      <title>Pagina de login</title>
+  
+  </head>
+  <center>
+  <body>
+  
+        <form action="validacao.php" method="post">
+
+  <div id="nav">
+      <img src="Imagens/logo.jpg" alt="HTML5" style="width:215.5px; height:138.5 ; position:absolute; margin-top: -240px; margin-left: -126.5px;">
+      
+      <div id="div-login"> <input name="usuario" required id="login" onFocus="change()" onBlur="changeBack()" type="text" placeholder="Usuário"> </div>
+  
+      <div id="div-senha"> <input name="senha" id="senha" type="password" placeholder="senha"> </div>
+      
+      <div id="div-entrar"> <input id="entrar" type="submit"  value="Entrar"> </div>
+      
+    </form>
+  </div>
+
+  </body>
+</center>
+  </html>

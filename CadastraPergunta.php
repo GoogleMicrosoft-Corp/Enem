@@ -1,14 +1,15 @@
 <?php
     
-  // A sessão precisa ser iniciada em cada página diferente
+  // Inicia a Seção
   if (!isset($_SESSION)) session_start();
     
-  // Verifica se não há a variável da sessão que identifica o usuário
-  if (!isset($_SESSION['UsuarioID'])) {
-      // Destrói a sessão por segurança
-      session_destroy();
+  // Verifica se há usuário Logado
+  if ($_SESSION['UsuarioID']!=true)
+ {
+      // Caso não tenha usuário logado Destrói a sessão por segurança
+     session_destroy();
       // Redireciona o visitante de volta pro login
-      header("Location: index.php"); exit;
+   header("Location: index.html"); exit;
   }
     
   ?>

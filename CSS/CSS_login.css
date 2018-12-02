@@ -1,0 +1,136 @@
+body{
+<!-- background-image: url(logo3.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100vw 100vh; -->
+}
+
+#nav{
+height:20px;
+width:5px;
+background: #ffffff;
+padding:250px;
+display: block;
+border-radius: 15px;
+margin-top: 70px; 
+sborder-width: ; 
+border-style: outset;
+border-color: ;
+}
+
+#div-login{
+float:left;
+padding:4px 6px;
+margin-top: -100px; margin-left: -210px;
+
+}
+#login{
+width: 400px; height: 40px;
+border-right: none;
+border-top: none;
+border-left: none;
+border-color: #1a73e8;
+outline-color:#ffffff;
+}
+
+#div-senha{
+float:left;
+padding:4px 6px;
+margin-top: -40px; margin-left: -210px;
+
+}
+#senha{
+	width: 400px; height: 40px;
+	border-right: none;
+border-top: none;
+border-left: none;
+border-color: #1a73e8;
+outline-color:#ffffff;
+}
+
+#div-cadastrar{
+float:left;
+display: inline-block;
+padding:8px 6px;
+border:3px solid #ffffff;
+background-color:#ffffff;
+font:15px arial, sans-serif;
+border-radius: 5px;
+font-family: sans-serif;
+margin-top: -40px; 
+margin-left: -200px;
+position: float;
+}
+#cadastrar{
+	text-decoration:none; color:#1a73e8;
+	font-size: 16px;
+	
+}
+
+#div-entrar{
+margin-top: 150px; margin-left: 112px; size: 20px;
+position: float;
+}
+#entrar{
+width: 85px; height: 40px; border-radius: 5px; background-color:#1a73e8; color: #ffffff;
+border: none;
+outline-color:#ffffff;	
+font-size: 16px;
+}
+#div-entrar :hover{
+	cursor: pointer;
+}
+
+
+::-webkit-input-placeholder {
+  font-size: 18px;
+}
+#titulo{
+	margin-top: px; margin-left: 50px;
+	position: fixed;
+	background: #ffff00;
+	
+	display: block;
+}
+#c{
+	margin-top: -209px; margin-left: -90px; size: 20px;
+position: fixed;
+color: rgb(66, 133, 244);
+font-family: roboto;
+}
+
+#u{
+	margin-top: -210px; margin-left: -70px; size: 20px;
+position: fixed;
+color: rgb(234, 67, 53);
+}
+
+#c2{
+margin-top: -210px; margin-left: -50px; size: 20px;
+position: fixed;	
+color: rgb(251, 188, 5);
+}
+
+#k{
+margin-top: -210px; margin-left: -30px; size: 20px;
+position: fixed;	
+color: rgb(66, 133, 244);
+
+}
+
+#s{
+margin-top: -210px; margin-left: -10px; size: 20px;
+position: fixed;	
+ color: rgb(52, 168, 83);
+}
+
+
+
+
+
+
+
+
+
+
+
